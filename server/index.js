@@ -8,7 +8,7 @@ const app = express()
 app.use(express.json())
 app.use(cors(
     {
-        origin:["https://registration-ll6r.vercel.app"],
+        origin:["https://registration-m6kr.vercel.app"],
         methods: ["POST", "GET"],
         credentials: true
     }
