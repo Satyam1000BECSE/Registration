@@ -11,7 +11,7 @@ function Login(){
     
     const handleSubmit = (e) => {
         e.preventDefault()
-        axios.post('registration-m6kr.vercel.app/login', {email, password})
+        axios.post('https://registration-m6kr.vercel.app/login', {email, password})
         .then(result => {
             console.log(result)
             if(result.data === "Success"){
